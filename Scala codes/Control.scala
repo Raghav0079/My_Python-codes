@@ -14,10 +14,11 @@ object Logic {
     
     // Example with Block Expressions (the last line is the return value)
     val complexResult = {
-      val x = 10
-      val y = 20
+      var x = 10
+      var y = 20
       x + y // This 30 becomes the value of 'complexResult'
     }
+
     println(s"Block result: $complexResult")
   }
 }

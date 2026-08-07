@@ -3,6 +3,10 @@ class Person {
   def speak(): Unit = {
     println("I am a person")
   }
+
+  def listen(): Unit = {
+    println("I am a person_2")
+  }
 }
 
 class Student extends Person {
@@ -18,5 +22,6 @@ object Main {
     val s = new Student()
 
     s.speak()
+    s.listen()
   }
 }
